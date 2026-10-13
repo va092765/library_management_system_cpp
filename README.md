@@ -21,8 +21,9 @@ A console-based Library Management System written in C++17. It is the C++ rewrit
 
 ## Build and Run
 ```bash
-g++ -std=c++17 -Wall -o library library.cpp
-./library
+vi project.cpp
+c++ project.cpp
+./a.out
 ```
 
 ## Menu
@@ -39,15 +40,9 @@ g++ -std=c++17 -Wall -o library library.cpp
 ## Data Format
 Books are stored one per line in `books.txt`:
 ```
-id|title|author|issued
-1|C Programming|Kernighan|0
-```
 
 ## Future Improvements
 - Member management with due dates and fines
 - Split into header and source files
 - Replace the text file with SQLite
 
-## Author
-Vijay Anand
-GitHub: [va092765](https://github.com/va092765)
